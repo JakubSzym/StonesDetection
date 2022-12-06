@@ -1,0 +1,9 @@
+train: YoloDataset/train/images 
+val:  YoloDataset/valid/images
+test: YoloDataset/test/images
+
+# number of classes
+nc: 1
+
+# class names
+names: ["stone"]
